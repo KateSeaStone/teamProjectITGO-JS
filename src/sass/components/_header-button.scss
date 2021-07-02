@@ -11,20 +11,9 @@
   margin: 0 auto; 
 }
 
-
-// .header__button__list__item {
-//   border-radius: 5px;
-//   cursor: pointer;
-//   text-align: center; 
-
-
-//    &:hover,
-//   &:focus {
-//     color: $accent-color;
-//   }
-
-
-// }
+.active__btn {
+   background-color: $accent-color!important;
+}
 
 .header__button__list__item__title {
   border-radius: 5px;

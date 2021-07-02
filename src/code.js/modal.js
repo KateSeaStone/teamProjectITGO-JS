@@ -4,22 +4,19 @@ import modalTpl from '../templates/modal.hbs'
 import addMoviesToCollection from './addMoviesToCollection.js';
 
 
-refs.backdrop.addEventListener('click',onBackDropClick)
+
+refs.backdrop.addEventListener('click',onBackDropClick);
 refs.trendContainer.addEventListener('click', (e) => {
     if(e.target.nodeName !=='IMG'){
       return
     }
     const filmId = e.target.id;
-    fetchtrend(filmId)
-    refs.arrow.classList.add('visually-hidden')
+    fetchtrend(filmId);
+    refs.arrow.classList.add('visually-hidden');
 })
-
-
 
 const API_KEY = '61153224aaaa08b03f5d3b14add082d2';
 const BASE_URL = 'https://api.themoviedb.org/3';
-
-
 
 
 function fetchtrend(filmId) {
@@ -117,7 +114,7 @@ function onBtnClose() {
     document.body.classList.remove('backdrop-scroll')
 
     window.removeEventListener('keydown', onEscPress)
-    refs.modal.insertAdjacentHTML('beforeend', ' <ul class="modal__btn-list"><li class="btn-list__item"><button class="btn__watched">add to Watched</button></li><li class="btn-list__item"><button class="btn__watched btn__queue">add to queue</button></li></ul>');
+    // refs.modal.insertAdjacentHTML('beforeend', ' <ul class="modal__btn-list"><li class="btn-list__item"><button class="btn__watched">add to Watched</button></li><li class="btn-list__item"><button class="btn__watched btn__queue">add to queue</button></li></ul>');
 }
 
 

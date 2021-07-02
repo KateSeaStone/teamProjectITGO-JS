@@ -22,7 +22,7 @@ const refs = {
    // кнопки Watched Queue в my Lib
    myLibButton: document.querySelector('.header__button__list'),
    // ссылка на форму-поисковик
-   searchForm: document.querySelector('.header__search__form'),
+   
    searchForm: document.querySelector('#search-form'),
    spanRef: document.querySelector('.notification'),
    modalFilm: document.querySelector('.modal'),
@@ -42,7 +42,6 @@ const refs = {
    logoLink: document.querySelector('.logo'),
 
    /*ссылки для формы поиска на хедере*/
-   headerForm: document.querySelector('.header__search__form'), 
    inputRef: document.querySelector('.header__input'),
    btnSrchRef: document.querySelector('.search-btn'),
    svgRef: document.querySelector('.input__icon__svg'),
@@ -60,11 +59,9 @@ const refs = {
   filmList : document.querySelector('.js-list'),
   nextBtn : document.querySelector('.js-btn-next'),
   prevBtn : document.querySelector('.js-btn-pr'),
-  btnList : document.querySelector('.button-list__container'),
   firstElBtn : document.querySelector('.js-btn__first'),
   lastElBtn :document.querySelector('.js-btn__last'),
-  btnListPage: document.querySelector('.button-list__page'),
-
+ 
   //from KateSEA
   lBtn :document.querySelector('.js-btn-l'),
   fBtn : document.querySelector('.js-btn-f'),

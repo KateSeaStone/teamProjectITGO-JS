@@ -36,6 +36,8 @@ let modal = document.querySelector('#modal'),
       document.body.style.overflow = 'hidden'; 
       ModalContentBlock.append(...ModalContent.children);
       refs.modal.style.display = 'block'; 
+  
+
     } else ModalContent = '';
   }
 
