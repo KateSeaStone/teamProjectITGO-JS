@@ -56,14 +56,14 @@ const refs = {
    paginationButtons: document.querySelector('.main__button-list'),
 
   //  пагинация
-    input : document.querySelector('.js-input'),
-    filmList : document.querySelector('.js-list'),
-    nextBtn : document.querySelector('.js-btn-next'),
-    prevBtn : document.querySelector('.js-btn-pr'),
-    btnList : document.querySelector('.button-list__container'),
-    firstElBtn : document.querySelector('.js-btn__first'),
-    lastElBtn :document.querySelector('.js-btn__last'),
-    btnListPage: document.querySelector('.button-list__page'),
+  input : document.querySelector('.js-input'),
+  filmList : document.querySelector('.js-list'),
+  nextBtn : document.querySelector('.js-btn-next'),
+  prevBtn : document.querySelector('.js-btn-pr'),
+  btnList : document.querySelector('.button-list__container'),
+  firstElBtn : document.querySelector('.js-btn__first'),
+  lastElBtn :document.querySelector('.js-btn__last'),
+  btnListPage: document.querySelector('.button-list__page'),
 
   //from KateSEA
   lBtn :document.querySelector('.js-btn-l'),
@@ -71,7 +71,7 @@ const refs = {
 
     
   //стрелка вверх
-    arrow: document.querySelector('.back_to_top'),
+  arrow: document.querySelector('.back_to_top'),
 
 }
 
