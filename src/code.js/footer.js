@@ -41,11 +41,4 @@ let modal = document.querySelector('#modal'),
     } else ModalContent = '';
   }
 
-  
-  // if(refs.modal.contains(e.target) && e.target !== ModalContentBlock && !ModalContentBlock.contains(e.target) 
-  // || e.target.classList.contains('--modal__close')) { 
-  //   document.body.style.overflow = ''; 
-  //   refs.modal.style.display = ''; 
-  //   if(ModalContent) ModalContent.append(...ModalContentBlock.children); 
-  // }
 });

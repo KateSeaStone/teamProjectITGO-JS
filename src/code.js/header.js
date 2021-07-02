@@ -130,35 +130,6 @@ async function fetchByInputQuery(page) {
 
     const {results, total_pages: totalPages} = await api.fetchFilm();
     paginationService.setTotalPages(totalPages);
-    renderMovies(results);   
-
+    renderMovies(results);  
 }
-
-
-
-
-
-
-
-// function renderMovies(results) {
-//     // console.log(results);
-//     fetchGenres()
-//         .then(genres => {
-
-//             results.forEach(result => {
-//                 result.genre_ids = result.genre_ids.slice(0, 3).map(genre => genres[genre])
-//                 result.release_date = result.release_date?.slice(0, 4)
-//             });
-
-//             const markUp = filmCardTpl(results);
-//             refs.trendContainer.innerHTML = '';
-//             window.scrollTo({
-//                 top: 1000,
-//                 behavior: "smooth"
-//             });
-//             refs.trendContainer.insertAdjacentHTML('beforeend', markUp);
-//         })
-// }
-
-
 

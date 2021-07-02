@@ -51,7 +51,6 @@ export default class PaginationService {
     }
 
     btnCreate() {
-        console.log(this.totalPages);
         refs.btnList.innerHTML = '';
         refs.btnList.insertAdjacentHTML('afterbegin', `<li class="button-list__item button-list__item--curretn"><button class="button-list__page button-list__page--current">${this.currentPage}</button></li>`)
 

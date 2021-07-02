@@ -1,7 +1,7 @@
 import refs from './refs';
 // импорт функционала для отрисовки списков фильмов
 import markUpMoviesCollection from './markUpMoviesCollection.js';
-import {PAGE_SIZE} from './constants.js'
+import {PAGE_SIZE} from './constants.js';
 
 
 // добавляет функционал на кнопки списков
@@ -35,9 +35,9 @@ export function fetchMoviesFromLocalStorage(page) {
     const result = collection.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
 
     if (collectionName === 'watched') {
-        showWatchedCollection(result)
+        showWatchedCollection(result);
     } else {
-        showQueueCollection(result)
+        showQueueCollection(result);
     }
 
 }
