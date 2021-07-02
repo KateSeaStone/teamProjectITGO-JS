@@ -4,4 +4,25 @@
  */
 
 // Стили для файла с примером HTML-фрагмента
-@import './example';
+// @import './example';
+
+@import './util//normalize';
+@import './util//font-family';
+@import './util//nullstyle';
+@import './pagination-style';
+
+@import './util/breakpoints';
+@import './util/variables';
+@import './main-container';
+@import './main-film-list';
+@import './film-list-item';
+@import './footer';
+
+@import './components/header';
+@import './components/logo';
+@import './components/header-search-form';
+@import './components/main-nav';
+@import './components/header-button';
+@import './components/modal';
+@import './components/loader';
+@import './components/bg-empty-collection';

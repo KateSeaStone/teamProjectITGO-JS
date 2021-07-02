@@ -1,0 +1,39 @@
+{{#each this}}
+  <li class='film__list__item'>
+    {{#if poster_path}}
+    <img
+      id='{{id}}'
+      class='film__poster'
+      src='https://image.tmdb.org/t/p/original/{{poster_path}}'
+      alt='{{original_title}}'
+    />
+    {{else}}
+    <img
+      id='{{id}}'
+      class='film__poster'
+      src='https://image.tmdb.org/t/p/original//w4OS1QNZCXnJSVuRP2qzzVIO63q.jpg'
+      alt='{{original_title}}'
+    />
+    {{/if}}
+    {{! poster_sizes "w92" "w154" "w185" "w342" "w500" "w780" "original" }}
+    <div class='film__card__info'>
+      <p class='film__title'><b>{{title}}</b></p>
+
+      <class class='film__card__details'>
+      
+             <ul class="genres">
+          {{#each genre_ids}}
+          <li class="genre_item">{{this}}</li>
+          {{/each}}
+        </ul>
+        </class>
+     
+        <p class='film__details'>| {{release_date}} </p>
+     
+      </div>
+    </div>
+
+  </li>
+{{/each}}
+
+

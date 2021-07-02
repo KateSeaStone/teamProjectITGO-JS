@@ -1,0 +1,150 @@
+.header__container {
+  width: 100%;
+  height: 230px;
+  margin: 0 auto;
+  padding: 30px 10px 0 10px;
+}
+
+@media screen and (min-width: 320px) {
+  .header__container {
+    width: 280px;
+    margin: 0 auto;
+    padding-top: 46px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header__container {
+    width: 648px;
+    margin: 0 auto;
+    padding: 46px 15px 0 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header__container {
+    width: 882px;
+    margin: 0 auto;
+    padding: 41px 15px 0 15px;
+  }
+}
+
+/*home__theme */
+
+.header {
+    width: 100%;
+    height: 230px;
+    // margin: 0 auto;  
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+
+    &__home__theme {
+          background-image: linear-gradient(to right, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)), 
+          url(../img/header/mobile/mobile@1x.jpg);
+
+            @media screen and (min-width: 768px) {
+          //width: 768px;
+          // margin: 0 auto;
+
+          background-image: linear-gradient(to right, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)),
+            url(../img/header/tablet/tablet@1x.jpg);
+
+          // min-height: 400px;
+        }
+
+        @media screen and (min-width: 1024px) {
+          background-image: linear-gradient(to right, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)),
+            url(../img/header/desctop/desctop@1x.jpg);
+
+          // min-height: 600px;
+          //width: 1200px;
+        }
+  }
+
+  &__ml__theme {
+     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)),
+        url(../img/header/mobile/mobile_ml@1x.jpg);
+
+        @media screen and (min-width: 768px) {
+          // width: 768px;
+          // margin: 0 auto;
+
+          background-image: linear-gradient(to right, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)),
+            url(../img/header/tablet/tablet_ml@1x.jpg);
+          // min-height: 400px;       
+    }
+
+        @media screen and (min-width: 1024px) {
+          background-image: linear-gradient(to right, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)),
+            url(../img/header/desctop/desctop_ml@1x.jpg);
+        // min-height: 600px;
+            // width: 1200px;
+      }
+  }
+
+}
+
+
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx),
+  screen and (min-width: 320px) {
+  .header__home__theme {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)), 
+    url(../img/header/mobile/mobile@2x.jpg);
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx),
+  screen and (min-width: 768px) {
+  .header  .home__theme {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)), 
+    url(../img/header/tablet/tablet@2x.jpg);
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx),
+  screen and (min-width: 1024px) {
+  .header  .home__theme {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)), 
+    url(../img/header/desctop/desctop@2x.jpg);
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx),
+        screen and (min-width: 320px) {
+        .header .ml__theme{
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)),
+          url(../img/header/mobile/mobile_ml@2x.jpg);
+      }
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx),
+        screen and (min-width: 768px) {
+        .header .ml__theme{
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)),
+          url(../img/header/tablet/tablet_ml@2x.jpg);
+      }
+}
+
+ @media screen and (min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx),
+        screen and (min-width: 1024px) {
+        .header .ml__theme{
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)),
+          url(../img/header/desctop/desctop_ml@2x.jpg);
+      }
+}
+
+
